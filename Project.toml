@@ -1,0 +1,8 @@
+name = "Vitalize"
+uuid = "8470deac-6b57-11e8-2fc5-45df998bdd3f"
+authors = ["Yuri Vishnevsky <yurivish@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Hyperscript = "47d2ed2b-36de-50cf-bf87-49c2cf4b8b91"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
