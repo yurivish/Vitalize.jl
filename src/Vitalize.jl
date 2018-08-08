@@ -1,8 +1,5 @@
 module Vitalize
 
-# using Hyperscript
-# @edit m("hi")
-
 import JSON
 using Hyperscript: m, render, tag, attrs, children, AbstractNode, Node, DOM, @tags, @tags_noescape
 using Base.Iterators
@@ -126,5 +123,4 @@ end
     thoughts
         can we do anything with order, e.g. use keys to enforce dom order?
         what can we do with small but nonhomogenous cases, e.g. <circle> followed by <text>?
-
 =#
